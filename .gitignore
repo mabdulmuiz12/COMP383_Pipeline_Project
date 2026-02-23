@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Snakemake working directory
+.snakemake/
+
+# Logs
+logs/
+
+# Generated results
+results/
+
+# Bowtie2 index files
+*.bt2
+*.bt2l
+
+# BLAST databases
+ref/blastdb/
