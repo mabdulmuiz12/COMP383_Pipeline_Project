@@ -1,8 +1,8 @@
-# OS / editor
+#OS / editor
 .DS_Store
 .vscode/
 
-# Python
+#Python
 __pycache__/
 *.pyc
 *.pyo
@@ -10,18 +10,29 @@ __pycache__/
 .venv/
 .env
 
-# Snakemake working directory
+#Snakemake working directory
 .snakemake/
 
-# Logs
+#Logs
 logs/
 
-# Generated results
+#Generated results
 results/
 
-# Bowtie2 index files
+#Bowtie2 index files
 *.bt2
 *.bt2l
 
-# BLAST databases
+#BLAST databases
 ref/blastdb/
+
+#Downloaded raw data
+data/
+
+#Downloaded reference databases
+ref/betaherpes_db/
+
+#Local test files
+test_raw_count.txt
+test_filtered_count.txt
+test_summary.txt
