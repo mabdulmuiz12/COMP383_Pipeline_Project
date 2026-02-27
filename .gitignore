@@ -16,11 +16,13 @@ __pycache__/
 #Logs
 logs/
 
-#Generated results
-results/
-#But allow the results directory itself (so Git can see files inside it)
+#Generated results (ignore everything)
+results/**
+
+#But keep the folder itself
 !results/
-#And allow the final report file
+
+#And keep the final report
 !results/AbdulMuiz_PipelineReport.txt
 
 #Bowtie2 index files
