@@ -18,6 +18,10 @@ logs/
 
 #Generated results
 results/
+#But allow the results directory itself (so Git can see files inside it)
+!results/
+#And allow the final report file
+!results/AbdulMuiz_PipelineReport.txt
 
 #Bowtie2 index files
 *.bt2
@@ -36,5 +40,3 @@ ref/betaherpes_db/
 test_raw_count.txt
 test_filtered_count.txt
 test_summary.txt
-
-!results/AbdulMuiz_PipelineReport.txt

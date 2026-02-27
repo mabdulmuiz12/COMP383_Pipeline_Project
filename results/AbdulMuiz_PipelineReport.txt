@@ -1,0 +1,12 @@
+Sample SRR5660030 had 10000 read pairs before and 7912 read pairs after Bowtie2 filtering.
+In the assembly of sample SRR5660030, there are 18 contigs > 1000 bp and 32285 total bp.
+Most likely strain for sample SRR5660030: TB40/E
+Sample SRR5660033 had 2004530 read pairs before and 1389489 read pairs after Bowtie2 filtering.
+In the assembly of sample SRR5660033, there are 64 contigs > 1000 bp and 129596 total bp.
+Most likely strain for sample SRR5660033: TB40/E clone TB40-BAC4
+Sample SRR5660044 had 2730258 read pairs before and 1943095 read pairs after Bowtie2 filtering.
+In the assembly of sample SRR5660044, there are 27 contigs > 1000 bp and 195152 total bp.
+Most likely strain for sample SRR5660044: TB40/E clone TB40-BAC4
+Sample SRR5660045 had 2476889 read pairs before and 1289781 read pairs after Bowtie2 filtering.
+In the assembly of sample SRR5660045, there are 53 contigs > 1000 bp and 88193 total bp.
+Most likely strain for sample SRR5660045: TB40/E clone TB40-BAC4
