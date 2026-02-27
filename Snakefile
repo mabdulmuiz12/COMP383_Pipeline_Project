@@ -152,18 +152,18 @@ rule sample_report:
         r"""
         mkdir -p results/report_parts
 
-        # Read the one-line summary TSV into variables (tab-delimited)
+        #Split using tabs, reading the first line and assigning each field to a var
         IFS=$'\t' read -r sid raw filt ncontigs totalbp strain < {input.summary}
 
-        # Header row 1 (stats) + data row (tab-delimited)
+        #Header row 1 (stats column) and data row
         echo -e "Sample\tRaw_ReadPairs\tFiltered_ReadPairs\tContigs_gt_1000bp\tTotal_bp\tTop_strain" > {output.txt}
         echo -e "$sid\t$raw\t$filt\t$ncontigs\t$totalbp\t$strain" >> {output.txt}
 
-        # Header row 2 (BLAST) + top 5 hit lines (already tab-delimited)
+        #Write second header row (BLASt column names)
         echo -e "qseqid\tsseqid\tstitle\tpident\tlength\tevalue\tbitscore" >> {output.txt}
         cat {input.blast} >> {output.txt}
 
-        # Blank line to separate samples in the final concatenated report
+        #Blank line to separate samples in the final concatenated report
         echo >> {output.txt}
         """
 
