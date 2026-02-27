@@ -4,7 +4,7 @@ SAMPLES = ["SRR5660030", "SRR5660033", "SRR5660044", "SRR5660045"]
 #Final target of the entire thing
 rule all:
     input:
-        "results/PipelineReport.txt"
+        "results/AbdulMuiz_PipelineReport.txt"
 
 #Build Bowtie2 index for HCMV reference genome
 #Gives us a genome index before reads can me mapped
@@ -158,7 +158,7 @@ rule pipeline_report:
     input:
         expand("results/report_parts/{sample}.txt", sample=SAMPLES)
     output:
-        "results/PipelineReport.txt"
+        "results/AbdulMuiz_PipelineReport.txt"
     shell:
         """
         cat {input} > {output}
