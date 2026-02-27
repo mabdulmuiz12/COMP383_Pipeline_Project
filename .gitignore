@@ -36,3 +36,5 @@ ref/betaherpes_db/
 test_raw_count.txt
 test_filtered_count.txt
 test_summary.txt
+
+!results/AbdulMuiz_PipelineReport.txt
