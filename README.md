@@ -50,23 +50,7 @@ fasterq-dump SRR5660045 -O data/raw --split-files
 gzip -f data/raw/*.fastq
 ```
 
-
-### 3) Download Betaherpesvirinae genomes and build BLAST database
-
-```bash
-mkdir -p ref/betaherpes_db
-
-datasets download virus genome taxon 10357 --filename ref/betaherpes_db/betaherpesvirinae.zip
-unzip -o ref/betaherpes_db/betaherpesvirinae.zip -d ref/betaherpes_db/
-
-find ref/betaherpes_db -type f -name "*.fna" > ref/betaherpes_db/fna_files.txt
-cat $(cat ref/betaherpes_db/fna_files.txt) > ref/betaherpes_db/betaherpesvirinae.fna
-
-makeblastdb -in ref/betaherpes_db/betaherpesvirinae.fna -dbtype nucl -out ref/betaherpes_db/betaherpesvirinae
-```
-
-
-### 4) Run the pipeline
+### 3) Run the pipeline
 
 ```bash
 snakemake --cores 4

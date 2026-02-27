@@ -20,15 +20,15 @@ arguments = check_arg(sys.argv[1:])
 infile = arguments.input
 outfile = arguments.output
 
-#Read first BLAST hit line (best hit)
+#Read the first (top) BLAST hit line
 with open(infile, "r") as f:
-    first_line = f.readline().strip()
+    line = f.readline().strip()
 
-#Split TSV columns
-fields = first_line.split("\t")
+#Split the tab-delimited BLAST outfmt 6 line into columns
+cols = line.split("\t")
 
-#stitle is column 3 (index 2)
-stitle = fields[2]
+#stitle is the LAST column in our BLAST outfmt
+stitle = cols[-1]
 
 #Default name in case parsing fails
 name = "UNKNOWN"

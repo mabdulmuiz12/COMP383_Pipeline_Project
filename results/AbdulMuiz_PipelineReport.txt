@@ -1,12 +1,36 @@
-Sample SRR5660030 had 10000 read pairs before and 7912 read pairs after Bowtie2 filtering.
-In the assembly of sample SRR5660030, there are 18 contigs > 1000 bp and 32285 total bp.
-Most likely strain for sample SRR5660030: TB40/E
-Sample SRR5660033 had 2004530 read pairs before and 1389489 read pairs after Bowtie2 filtering.
-In the assembly of sample SRR5660033, there are 64 contigs > 1000 bp and 129596 total bp.
-Most likely strain for sample SRR5660033: TB40/E clone TB40-BAC4
-Sample SRR5660044 had 2730258 read pairs before and 1943095 read pairs after Bowtie2 filtering.
-In the assembly of sample SRR5660044, there are 27 contigs > 1000 bp and 195152 total bp.
-Most likely strain for sample SRR5660044: TB40/E clone TB40-BAC4
-Sample SRR5660045 had 2476889 read pairs before and 1289781 read pairs after Bowtie2 filtering.
-In the assembly of sample SRR5660045, there are 53 contigs > 1000 bp and 88193 total bp.
-Most likely strain for sample SRR5660045: TB40/E clone TB40-BAC4
+Sample	Raw_ReadPairs	Filtered_ReadPairs	Contigs_gt_1000bp	Total_bp	Top_strain
+SRR5660030	10000	7912	18	32285	TB40/E
+qseqid	sseqid	stitle	pident	length	evalue	bitscore
+NODE_1_length_4006_cov_11.400819	AY446866.1	99.975	3995	0.0	7372	AY446866.1 Human herpesvirus 5 strain TB40/E, partial genome
+NODE_1_length_4006_cov_11.400819	EF999921.1	99.975	3995	0.0	7372	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
+NODE_1_length_4006_cov_11.400819	KF297339.1	99.975	3995	0.0	7372	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa, complete genome
+NODE_1_length_4006_cov_11.400819	JX512204.1	99.975	3995	0.0	7372	JX512204.1 Human herpesvirus 5 strain HAN16, complete genome
+NODE_1_length_4006_cov_11.400819	KJ361947.1	99.975	3995	0.0	7372	KJ361947.1 Human herpesvirus 5 strain 2CEN5, complete genome
+
+Sample	Raw_ReadPairs	Filtered_ReadPairs	Contigs_gt_1000bp	Total_bp	Top_strain
+SRR5660033	2004530	1389489	64	129596	TB40/E clone TB40-BAC4
+qseqid	sseqid	stitle	pident	length	evalue	bitscore
+NODE_1_length_5723_cov_747.830903	EF999921.1	100.000	5717	0.0	10558	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
+NODE_1_length_5723_cov_747.830903	KF297339.1	100.000	5717	0.0	10558	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa, complete genome
+NODE_1_length_5723_cov_747.830903	MT070140.1	100.000	5717	0.0	10558	MT070140.1 UNVERIFIED: Human betaherpesvirus 5 isolate P10, complete genome
+NODE_1_length_5723_cov_747.830903	MW439039.1	100.000	5717	0.0	10558	MW439039.1 Human betaherpesvirus 5 strain TB40/EE, complete genome
+NODE_1_length_5723_cov_747.830903	MW439038.1	100.000	5717	0.0	10558	MW439038.1 Human betaherpesvirus 5 strain TB40/EF, complete genome
+
+Sample	Raw_ReadPairs	Filtered_ReadPairs	Contigs_gt_1000bp	Total_bp	Top_strain
+SRR5660044	2730258	1943095	27	195152	TB40/E clone TB40-BAC4
+qseqid	sseqid	stitle	pident	length	evalue	bitscore
+NODE_1_length_36378_cov_642.720720	EF999921.1	99.997	36362	0.0	67143	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
+NODE_1_length_36378_cov_642.720720	KF297339.1	99.997	36362	0.0	67143	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa, complete genome
+NODE_1_length_36378_cov_642.720720	MT070140.1	99.997	36362	0.0	67143	MT070140.1 UNVERIFIED: Human betaherpesvirus 5 isolate P10, complete genome
+NODE_1_length_36378_cov_642.720720	MW439039.1	99.997	36362	0.0	67143	MW439039.1 Human betaherpesvirus 5 strain TB40/EE, complete genome
+NODE_1_length_36378_cov_642.720720	MW439038.1	99.997	36362	0.0	67143	MW439038.1 Human betaherpesvirus 5 strain TB40/EF, complete genome
+
+Sample	Raw_ReadPairs	Filtered_ReadPairs	Contigs_gt_1000bp	Total_bp	Top_strain
+SRR5660045	2476889	1289781	53	88193	TB40/E clone TB40-BAC4
+qseqid	sseqid	stitle	pident	length	evalue	bitscore
+NODE_1_length_4118_cov_155.945758	EF999921.1	99.951	4111	0.0	7579	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4, complete sequence
+NODE_1_length_4118_cov_155.945758	KF297339.1	99.951	4111	0.0	7579	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa, complete genome
+NODE_1_length_4118_cov_155.945758	JX512204.1	99.951	4111	0.0	7579	JX512204.1 Human herpesvirus 5 strain HAN16, complete genome
+NODE_1_length_4118_cov_155.945758	MT070140.1	99.951	4111	0.0	7579	MT070140.1 UNVERIFIED: Human betaherpesvirus 5 isolate P10, complete genome
+NODE_1_length_4118_cov_155.945758	MT044481.1	99.951	4111	0.0	7579	MT044481.1 Human betaherpesvirus 5 strain GLA-SOT2, complete genome
+
